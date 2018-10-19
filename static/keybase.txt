@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/aagat
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aagat.com
+  * I am aagat (https://keybase.io/aagat) on keybase.
+  * I have a public key with fingerprint 4723 5E29 0CA9 14EC 0A67  9584 2FDF 863B E2E6 4726
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b7674c385b44aa7cc02d2cf836aa72cee505148cf36378b9c121b7630a596ef40a",
+      "fingerprint": "47235e290ca914ec0a6795842fdf863be2e64726",
+      "host": "keybase.io",
+      "key_id": "2fdf863be2e64726",
+      "kid": "0101b7674c385b44aa7cc02d2cf836aa72cee505148cf36378b9c121b7630a596ef40a",
+      "uid": "aadb5775ad94d67a06199af29910f519",
+      "username": "aagat"
+    },
+    "service": {
+      "hostname": "aagat.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1509033676,
+  "expire_in": 157680000,
+  "prev": "b197afb8895347e864643f6f6ced47d359f331d7981ff06cd86dfcdd995ae575",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPsfU1CwqIvFS6iZFZLm3mdk5BWIvpi9FYheQDrO7M6dFPXs6Z/Uk
+EkaoFRRJllEiRGTRDbtSEVTYBcwHkxCVSDGwVJTCiAQpmpWKHnpsXob/m+/75vt/
+/qaF8zwJ3rzhxo3vPxSu9naP657d0/F9tYJumzWCr1Yop3MXrTBpxPGXW6bgE0RJ
+lHQEkWooGtBVlRBkGKJsygbTFMgr2aAUiEBSNYMpUEGajg1JdjWKSACGlKkiEXIF
+ZgUDNBwKW0GH26pIVgCVsWgQLKnUEAlEGGiqzEymQUWnMoWcA7lwrx1xFTycTiJ0
+g2VzjBf+uXj/4P/n3FVzdoSYOkAIEBOrJkREhBLGhMkYSyIDEnaJERoOkko6xw4Q
+RziQK3Co2jKoO1W3jb+fNxh2JVeFwrZjG3YFh/c6Tijic2VOTcjlRanu/+Xg162g
+ySfIFdU0HLHsoOCTONNwLNdSAiIWFQUimCvQ/SErTP2WywAIaiI/7j+0mlvqEkaE
+6ZqGgaJuR1SDKlQVBhk0qKkiUwGYKYpkIqxJjInQMDVoMsM0MQaEAgQEt6l9QVvw
+YZ6TBLhnxAoEiVMVpsKBpKNeJdbjTfCsWJ4dW7hqz9rkK8smkwKn639vXVyMu3Ke
+pMTFf5CPCZ5Hj5JL8qe86exJ3veZFwuslvTQtbvH6sRFo9Hpw/nJ44fK2qayakae
+3uzfkZpVOtQX17XK6c5PLV3TBGuWRDfHRK6eCFweYw3PekML361X0Z3boxmPOxp2
+dWTmbIpt6K1PeRDuPLr0VNr2wa0ZAwdB/TZ2/XjBys62xufOm8mTsz/uvn41FlO0
+SxysexlfPlRW3D7SfEZ5+hmpUZh6Hc1nXx429UyVjN1Ii103fyK7q+B2a2bnpszD
+ayre9tfeP/21OedQ+72BrrTQlrNvC7sCnd7xOwVyWV/cTPOF2ZaiicRvRy7eWpAy
+XH8yMefGxp0HS3oKPhXjunMtL85fmlkZbVWzfgI=
+=sufo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aagat
+
+==================================================================
