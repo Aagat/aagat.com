@@ -12,17 +12,26 @@ draft: false
 ### Pretext
 
 Hosting stuff with traditional shared hosts is not a pleasant experience. They're usually slow, oversold and more or less stuck in 2006 in terms of developer experience. It's 2017 and I wasn't going to subject myself to the torture that is uploading your files through FTP client. So I had two very straightforward criteria to host my website:
+
 * __Simple__: The process to deploy new version of website should be painless. It shouldn't take more than one command.
+
 * __Free__: I like free stuff and I can't lie.
+
 
 Looking around, I found GAE's (Google App Engine) [official tutorial][1] that shows you how to host a static website. The entire process boils down to: a) install their SDK (Software Development Kit) and b) populate a file called `app.yaml` to tell appengine what to do. Deploying the application is also as simple as running `gcloud app deploy`. First requirement satisfied.
 
 GAE also seems to include [generous free tier][2] that includes:
+
 * 28 instance hours per day
+
 * 5 GB Cloud Storage
+
 * Shared memcache
+
 * 1000 search operations per day, 10 MB search indexing
+
 * 100 emails per day
+
 * 1GB/day data transfer out @ maximum rate of 56 MB/minute
 
 _The maximum rate of 56MB/minute is fine for mostly text website with low traffic but if you are hosting any sort of image, it is a good idea to configure your website behind CloudFlare._
@@ -30,7 +39,7 @@ _The maximum rate of 56MB/minute is fine for mostly text website with low traffi
 That is good enough to run my site for free forever. Second requirement satisfied.
 
 With the requirements sorted I followed the [official tutorial][1] and had my website up in no time. At this point, I have a single html file inside the `www` folder. This folder is going to be my web root.
-```
+```shell
 .
 ├── app.yaml
 └── www
@@ -42,7 +51,7 @@ With the requirements sorted I followed the [official tutorial][1] and had my we
 
 While this setup worked pretty well for a single page static website, it quickly became unusable when I tried hosting a blog. Jekyll generates pretty URL by default which means each post is inside it's own several levels deep directory (`/blog/yyyy/mm/dd/post-title/index.html`) which was difficult to configure using the configuration format for GAE. With blog included, the project has many directories than before:
 
-```
+```text
 .
 ├── app.yaml
 ├── jekyll
@@ -141,7 +150,7 @@ handlers:
 ```
 
 With the new system in place, the final directory structure of the project is:
-```
+```text
 .
 ├── app.yaml
 ├── jekyll
@@ -160,7 +169,7 @@ With the new system in place, the final directory structure of the project is:
 ```
 
 Google App Engine SDK provides a handy script to test our application locally before we publish it online. It can be started by switching to project directory and simply running:
-```
+```shell
 $ dev_appserver.py app.yaml
 ```
 _I assume you have already installed golang SDK component. If not run `gcloud components install app-engine-go` or consult the documentation._
