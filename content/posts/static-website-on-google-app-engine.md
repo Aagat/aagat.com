@@ -2,7 +2,14 @@
 layout: post
 title: Static Website On Google App Engine
 description: A guide to setup static website with custom 404 on Google App Engine.
-keywords: static website, custom 404, golang, jekyll, app engine, google app engine, guide
+keywords:
+    - static website
+    - custom 404
+    - golang
+    - jekyll
+    - app engine
+    - google app engine
+    - guide
 date: 2017-09-13T18:54:20+05:45
 draft: false
 ---

@@ -5,3 +5,8 @@ theme = "default"
 
 pygmentsUseClasses=true
 pygmentsCodeFences=true
+
+[params]
+    author = "Aagat Adhikari"
+    description = "Aagat Adhikari - Software Developer"
+    keywords = "Aagat, Aagat Adhikari, Software Developer, Programmer, Nepal"
