@@ -2,3 +2,6 @@ baseURL = "https://aagat.com/"
 languageCode = "en-us"
 title = "Aagat Adhikari - Software Developer"
 theme = "default"
+
+pygmentsUseClasses=true
+pygmentsCodeFences=true
