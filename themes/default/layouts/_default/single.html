@@ -12,9 +12,14 @@
     "headline" : "{{ .Title }}",
     "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
     "inLanguage" : "en-US",
-    "author" : "{{ .Site.Params.author }}",
-    "creator" : "{{ .Site.Params.author }}",
-    "publisher": "{{ .Site.Params.author }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.author }}'s Personal Authority"
+    },
     "accountablePerson" : "{{ .Site.Params.author }}",
     "copyrightHolder" : "{{ .Site.Params.author }}",
     "copyrightYear" : "{{ .Date.Format "2006" }}",
