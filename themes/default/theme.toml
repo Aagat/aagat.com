@@ -1,0 +1,12 @@
+name = "Default"
+license = "MIT"
+licenselink = "https://github.com/aagat/aagat.com/blob/master/themes/default/LICENSE"
+description = "Default theme for aagat.com"
+homepage = "https://aagat.com/"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Aagat Adhikari"
+  homepage = "https://aagat.com"
