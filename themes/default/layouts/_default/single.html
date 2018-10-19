@@ -18,8 +18,8 @@
     "accountablePerson" : "{{ .Site.Params.author }}",
     "copyrightHolder" : "{{ .Site.Params.author }}",
     "copyrightYear" : "{{ .Date.Format "2006" }}",
-    "datePublished": "{{ .Date }}",
-    "dateModified" : "{{ .Date }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z0700"  | safeHTML }}",
+    "dateModified" : "{{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}",
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
     "keywords" : [ {{ if isset .Params "keywords" }}{{ range .Params.keywords }}"{{ . }}",{{ end }}{{ end }}"blog" ]
